@@ -48,7 +48,7 @@ class Login extends Component {
 
         if (this.state.username === "testuser" && this.state.password === "testuser") {
             sessionStorage.setItem('username','testuser');
-            sessionStorage.setItem('access-token', 'IGQVJYTXFacm40ZAzYwZAjhiRVBTU05RdUV3NnZAVWmIwZA2xBQng5NGR4LXRpTXlKLU56OVpMTjFqWWtuTlJBcS11RGNmWVJZAcmxTVjJscjdvaG1MM2pUWHNPdFJYbkxkb3FqNVdILV82N3NDcWhocXlsMAZDZD');
+            sessionStorage.setItem('access-token', 'IGQVJXNmhUVTE4SUhlajhiZAmxPeXlncTZACbTFhMHZA6UjI4di1adGtBVm5ROWRPd3Q0QnNLemtsYVhVelJFdGdEOG9aT2UxMUtaTllVZAXBDWjVfaUJvdFNJcXNIcnhCWG4tYTFwNVl2RXdycEk2RENyTAZDZD');
             this.setState({ loggedIn: true });
 
             this.movetoHome();
