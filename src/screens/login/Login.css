@@ -1,0 +1,16 @@
+
+.main-container{
+    flex-direction: column;
+    display: flex;
+  }
+  .dispNone {
+    display:none;
+}
+
+.red {
+    color: red;
+}
+
+.dispBlock {
+    display: block;
+}
